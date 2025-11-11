@@ -1,0 +1,19 @@
+{
+  "name": "Vi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.21.0",
+  "dependencies": {
+    "@netlify/functions": "^5.1.0"
+  },
+  "devDependencies": {
+    "@netlify/types": "^2.2.0"
+  }
+}

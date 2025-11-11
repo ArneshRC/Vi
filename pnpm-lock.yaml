@@ -1,0 +1,35 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .:
+    dependencies:
+      '@netlify/functions':
+        specifier: ^5.1.0
+        version: 5.1.0
+    devDependencies:
+      '@netlify/types':
+        specifier: ^2.2.0
+        version: 2.2.0
+
+packages:
+
+  '@netlify/functions@5.1.0':
+    resolution: {integrity: sha512-LZtiQtf/QzPHIeNDZuIBxx04kmU7lCipWqZ26ejX7mYSB3yj2wvpZfF49kD8B8FoKTydSvgFmBpIcCO5FvpEXA==}
+    engines: {node: '>=18.0.0'}
+
+  '@netlify/types@2.2.0':
+    resolution: {integrity: sha512-XOWlZ2wPpdRKkAOcQbjIf/Qz7L4RjcSVINVNQ9p3F6U8V6KSEOsB3fPrc6Ly8EOeJioHUepRPuzHzJE/7V5EsA==}
+    engines: {node: ^18.14.0 || >=20}
+
+snapshots:
+
+  '@netlify/functions@5.1.0':
+    dependencies:
+      '@netlify/types': 2.2.0
+
+  '@netlify/types@2.2.0': {}

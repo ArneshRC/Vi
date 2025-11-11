@@ -1,0 +1,10 @@
+[build]
+  command = "npm install"
+
+[functions]
+  included_files = [ "netlify/functions/frames/**" ]
+
+[[redirects]]
+  from = "/*"
+  to = "/.netlify/functions/vi"
+  status = 200
